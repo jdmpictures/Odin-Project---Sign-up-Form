@@ -1,0 +1,27 @@
+ body{
+ display: flex;    
+   
+ }
+
+.image {
+    width: 50%;
+
+}
+
+.form {
+    width: 50%;
+    height: 100vh; /* Set the height of the form to the full viewport height */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+}
+
+form {
+width: 100%;
+max-width: 300px;
+display: block;
+}
+
+
+
